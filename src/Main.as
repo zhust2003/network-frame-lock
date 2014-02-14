@@ -77,7 +77,7 @@ package
 			tf.x = 10;
 			tf.y = 330;
 			tf.autoSize = TextFieldAutoSize.LEFT;
-			tf.text = '说明：此例子为客户端帧锁定算法，\n左边为本地场景，右边为延迟后的某玩家看到的网络场景。\n方向键控制方向移动';
+			tf.text = '说明：此例子为帧锁定算法，\n左边为本地场景，右边为延迟后的某玩家看到的网络场景。\n方向键控制方向移动';
 			addChild(tf);
 			
 			bpsTf = new TextField();
